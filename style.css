@@ -13,4 +13,28 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: var(--bg);
+}
+
+ul {
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+
+ul li {
+  position: relative;
+  list-style: none;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+ul li a {
+  position: relative;
+  text-decoration: none;
+  color: var(--clr);
 }
