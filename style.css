@@ -37,4 +37,6 @@ ul li a {
   position: relative;
   text-decoration: none;
   color: var(--clr);
+  z-index: 10;
+  font-size: 2em;
 }
